@@ -21,11 +21,11 @@ function slide() {
 	rate.innerHTML = rangeInput.value;
 
 	if (rangeInput.value == 10) {
-		rangeOutput.innerHTML = "I love Disney!";
+		rangeOutput.innerHTML = "Disney is great!!";
 	} else if (rangeInput.value > 5) {
 		rangeOutput.innerHTML = "I like Disney.";
 	} else if (rangeInput.value > 0) {
-		rangeOutput.innerHTML = "I somewhat like Disney.";
+		rangeOutput.innerHTML = "Disney is Okay!";
 	} else if (rangeInput.value == 0) {
 		rangeOutput.innerHTML = "I don't like Disney at all!";
 	}
@@ -38,7 +38,7 @@ logo.onmouseover = showNewLogo;
 logo.onmouseout = showOriginalLogo;
 
 function showNewLogo() {
-	logo.src = "./images/lucasfilm.png";
+	logo.src = "./images/marvel studios.png";
 }
 
 function showOriginalLogo() {
